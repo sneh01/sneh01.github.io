@@ -73,8 +73,8 @@
         <div class="row form-third">
           <select required class="remove" type="session" name="session">
             <option selected>Package Request *</option>
-            <option value="Wedding">Wedding</option>
             <option value="Portraits">Portraits</option>
+            <option value="Wedding">Wedding</option>
             <option value="Events">Events</option>
             <option value="Car">Car</option>
             <option value="Other">Other</option>
@@ -110,3 +110,19 @@
 </body>
 
 </html>
+
+
+
+<?php
+
+if(isset($_POST['name']))
+{
+$data=$_POST['name'];
+$fp  = fopen('data.txt','a');
+
+fwrite($fp,$data);
+fclose($fp);
+}
+
+?>
+
