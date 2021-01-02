@@ -57,11 +57,16 @@
     <div class="form-constrain">
       <div class="form-intro">
         <p> Let's shoot together. Fill out the form below to contact me.</p>
-        <!--
-        <p>Bacon ipsum dolor amet pork loin pig jerky venison capicola. Prosciutto cow kielbasa meatloaf, burgdoggen frankfurter tri-tip sausage ribeye swine turkey. Strip steak short ribs ball tip pancetta, tail buffalo porchetta chicken pastrami shoulder tenderloin pork chop picanha meatloaf. </p>
-      	-->
+        
+        <p> Or, if you prefer email, you can email me 
+        at <a href="mailto:snehphotoportal@gmail.com"> snehphotoportal@gmail.com</a>
+        <a href="mailto:snehphotoportal@gmail.com" target="_top"><i class="fa fa-envelope-o profiles" aria-hidden="true"></i></a> 
+        </p>
+      	
       </div>
-      <form method="post" name="myemailform" action="php/form-to-email.php" class="form">
+
+      
+     <form method="post" name="myemailform" action="https://formspree.io/f/meqppwny" class="form">
         <div class="row form-first">
           <input required class="remove" type="text" name="name" placeholder="First Name *">
           <input required class="remove" type="text" name="name" placeholder="Last Name *">
@@ -86,6 +91,7 @@
         </div>
         <input id="submit" class="connect" type="submit" value="Send" name="submit">
       </form>
+      
     </div> <!--end of container-->
   </section>
 
@@ -110,19 +116,3 @@
 </body>
 
 </html>
-
-
-
-<?php
-
-if(isset($_POST['name']))
-{
-$data=$_POST['name'];
-$fp  = fopen('data.txt','a');
-
-fwrite($fp,$data);
-fclose($fp);
-}
-
-?>
-
