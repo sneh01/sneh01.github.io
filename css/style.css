@@ -50,7 +50,7 @@ body {
 }
 
 .bucket-1{
-    background-image: url("../images/homepage-buckets/bucket/pnc3.jpg");
+    background-image: url("../images/homepage-buckets/bucket/img1.jpg");
     background-size: cover;
     background-position: 100% 32%;
     height: 450px;
@@ -58,7 +58,7 @@ body {
 }
 
 .bucket-2 {
-    background-image: url("../images/homepage-buckets/bucket/filler1.jpg");
+    background-image: url("../images/homepage-buckets/bucket/img2.jpg");
     background-size: cover;
     background-position: 100% 50%;
     height:450px;
@@ -66,7 +66,7 @@ body {
 }
 
 .bucket-3 {
-    background-image: url("../images/homepage-buckets/bucket/img4.jpg");
+    background-image: url("../images/homepage-buckets/bucket/img3.jpg");
     background-size: cover;
     background-position: 50% 40%;
     height:450px;
