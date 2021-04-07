@@ -95,6 +95,33 @@ body#about-me .main-content .container .row .col-lg-6 .thumbnail {
     margin-bottom: 20px;
 }
 
+
+/** albums **/
+body#albums .main-content .container .row .col-lg-6 .thumbnail {
+    border-radius: 0;
+}
+
+.albums-img, .albums-content p {
+    display: block;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.albums-content {
+    margin-bottom: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.albums-content p {
+    margin-bottom: 20px;
+    
+}
+
+
+
 /** contact **/
 
 .form-constrain {
